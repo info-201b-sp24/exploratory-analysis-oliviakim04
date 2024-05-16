@@ -1,11 +1,10 @@
 
 
-install.packages(readxl)
-install.packages(ggplot2)
+install.packages("readxl")
+install.packages("ggplot2")
 
-library("ggplot2")
-library("readxl")
-
+library(ggplot2)
+library(readxl)
 
 
 file_path <- "/Users/harshitasingh/Downloads/Colorado Mental Health Numerical Survey Results.xlsx"
