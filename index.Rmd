@@ -7,48 +7,89 @@ output: html_document
 
 Give your project a concise, interesting title that summarizes the entirety of your project
 
+## Relationship between Mental Health and Social Media Usage
+
 ### Authors
 
-Names of your team members
+Olivia Kim 
+
+Christina Wang
+
+Chae Won Yoo
+
+Harshita Singh
+
 
 ### Date
 
-Winter 2022
+4/30/2024
+## Abstract
 
-### Abstract
+Our main question for this project is how social media usage affects the mental health of an individual, especially young adults. This question is important because if these two variables show a causal relationship, potential solutions should be explored to mitigate this detrimental effect of social media in creating and worsening mental issues. To address this concern, we plan to analyze the dataset we have found using R to study the relationship between social media usage and mental fitness. 
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
 
-### Keywords
+## Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: mental health, social media, screen time, young adults
 
-### Introduction  
+## Proposal
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+1. Introduction  
 
-### Related Work  
+In the modern world, social media is part of many individuals' daily lives, especially for young adults. The wide usage of applications such as Instagram, TikTok, and Twitter has created concerns about over-usage and potential negative consequences such as mental health issues. Many contents on these platforms are inappropriate and negative as they include hate-based information or comments as well as negative self or body image. Therefore, exploring the relationship between social media usage and mental fitness is necessary, especially as the Social Media Industry continues to grow rapidly. Through this project, we hope to contribute to this goal by analyzing a dataset we have found, discussed in more detail in section three of our proposal, to answer the research questions we have focused on. Some questions we aim to answer are what are the age ranges that are most affected by social media, what are the proportions of individuals experiencing positive or negative changes in mental health from social media, how many participants have an underlying mental condition in this study, and does social media screentime affect the likeliness of mental health issue. These research questions are important to answer as they potentially show the relationship between mental health and social media and help to draw associations between these two variables. 
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+2. Related Work  
 
-### The Dataset
+> Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+>
+> Our topic focuses on the relationship between increased screen time and mental health especially for teenagers. Technological development is accompanied by increased time spent on screens which has been correlated to lower pscychological well being. Three sources i found that relates to this topic and their findings are as summarized below :
+>
+> 1. This research study done on 44,734 children of ages 2-17 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6214874/) found that children and adolescents with higher screen times were likely to have poor emotional regulation , lower curiosity, more difficulty making friends as well as higher chances of being diagonsed with depression or anxiety. 
+> 2. This research study found that the presence of smartphones and having higher screen times significantly reduced people's social interactions and how in the presence of technology people use their smartphones replace social interaction they would have had otherwise ( ciencedirect.com/science/article/pii/S0747563217304132)
+> 3. This research study linked increased screen time to declining physical health, physiological health and sleep patterns - because increased screen time was shown to cause increased stress as well as anxiety. It focuses specifically on increased use of screen at nighttime.  ( https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9638701/)
+> 4. This study shows how increased screen time can impact childhood adolescents - just having a screen time of more than 1 hour can make it 41% more likely to have reduced mental and physical well being.(
+>
+>    CITATIONS
+>    Twenge JM, Campbell WK. Associations between screen time and lower psychological well-being among children and adolescents: Evidence from a population-based study. Prev Med Rep. 2018 Oct 18;12:271-283. doi: 10.1016/j.pmedr.2018.10.003. PMID: 30406005; PMCID: PMC6214874.
+>    
+>    ostadin Kushlev, Jason D.E. Proulx, Elizabeth W. Dunn,
+Digitally connected, socially disconnected: The effects of relying on technology rather than other people,
+Computers in Human Behavior,
+Volume 76,
+2017,
+Pages 68-74,
+ISSN 0747-5632,
+https://doi.org/10.1016/j.chb.2017.07.001
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+> Nakshine VS, Thute P, Khatib MN, Sarkar B. Increased Screen Time as a Cause of Declining Physical, Psychological Health, and Sleep Patterns: A Literary Review. Cureus. 2022 Oct 8;14(10):e30051. doi: 10.7759/cureus.30051. PMID: 36381869; PMCID: PMC9638701.
 
-### Implications
+> Kerai, S., Almas, A., Guhn, M. et al. Screen time and developmental health: results from an early childhood study in Canada. BMC Public Health 22, 310 (2022). https://doi.org/10.1186/s12889-022-12701-3
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+3. The Dataset
 
-### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+> Where did you find the data? Please include a link to the data source  
+> Who collected the data?  
+> How was the data collected or generated?  
+> Why was the data collected?  
+>How many observations (rows) are in your data?  
+> How many features (columns) are in the data?  
+> What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+> What are possible limitations or problems with this data?   (at least 200 words)
+
+Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JBPZ9E
+
+The data we found comes from Harvard Dataverse. It studies social media’s impact on mental and physical health in the state of Colorado. The study surveyed 55 participants ages 18 and older. The purpose of the study was to help people gain a better understanding of how social media impacts their well-being as well as to help policymakers combat these issues. In the dataset, there are 56 rows and 31 columns. Almost every participant claims they use social media, and the time they spend on social media ranges from 0.5 - 7 hours per day. Over 70% of participants say social media impacts the way they look at people around them. Of the 55 participants, 58% have been diagnosed with a mental disorder. This dataset suggests that there may be a correlation between social media usage and participants’ well-being. However, this dataset has a relatively small sample of only 55 participants from Colorado. So the data collected in this study may not be representative of the entire population. Additionally, due to the publication of the surveys, participants may have provided untrue information to make themselves look better. There are also other factors that can influence mental health so it would be important to consider those factors as well. Some ethical questions surrounding this dataset are how was the privacy of participants protected? How might researcher’s biases influence the interpretation of the data? How were the samples collected and was it random?
+
+4. Implications
+
+> Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+
+If our study confirms that using social media causes mental health problems, it would be a big deal for many people. People who make social media apps might start thinking about making them better for our mental health instead of just trying to keep us hooked. They could add mandatory timers to limit how much time we spend on them, warnings about harmful content across all platforms, or tools to deal with mean comments. Government officials must make rules to protect us from spending too much time on social media, especially young people. Therapists could use what we find to help people who are struggling with how social media affects their mental health. This could lead to a positive movement and impact how social media is socially viewed. Social media would be a fundamental tension for policymakers and legislation from now on as there would be differing opinions on matters as that is the nature of government.
+
+5. Limitations & Challenges
+>What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+One challenge is showing that using social media leads to mental health issues, showing causality. While our analysis can show connections, proving that one causes the other is tricky. We'll need to think carefully about other things that might be causing both, and whether using social media might be caused by mental health problems. Also, since we only looked at data from a small sample in Colorado and not from a broader pool, our findings might not apply to everyone. Attempting to gather reliable data from a large sample size where we take out response bias would be very difficult. Also, factoring in our confounding variables with research of this magnitude would further add to the list of limitations. We must protect people's privacy and not let our opinions influence our research. Working out how social media affects mental health needs lots of different experts to help, which could lead to various challenges.
 
 ### Summary Information
 
