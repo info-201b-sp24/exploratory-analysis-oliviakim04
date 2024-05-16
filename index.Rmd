@@ -122,7 +122,10 @@ Describe why you chose this chart and what information it reveals
 
 Include a chart
 
-chart3pic.png
+
+
+``````{r, echo = FALSE, code = readLines("chart3.R")}
+```
 
 
 Describe why you chose this chart and what information it reveals
