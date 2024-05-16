@@ -104,13 +104,13 @@ Describe why you included the table and what information it reveals
 ### Chart 1
 
 Include a chart
+```{r, echo = FALSE, code = readLines("Chart_1.R")}
+```
 
 Describe why you chose this chart and what information it reveals
+I chose to graph this histogram because we wanted to see the overall distribution of social media usage daily. 
+This chart reveals that most participants of this survey spent time on social media ranging from 1 - 5hrs daily.
 
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
-```
 
 ### Chart 2
 
