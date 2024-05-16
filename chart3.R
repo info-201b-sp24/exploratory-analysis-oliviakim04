@@ -1,7 +1,5 @@
 
 
-install.packages("readxl")
-install.packages("ggplot2")
 
 library(ggplot2)
 library(readxl)
