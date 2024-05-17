@@ -119,10 +119,11 @@ This chart reveals that most participants of this survey spent time on social me
 
 ### Chart 2
 
-Include a chart
-
+```{r, echo = FALSE, code = readLines("chart 2.R")}
+```
 Describe why you chose this chart and what information it reveals
 
+I chose this graph because I believe it helps show the tendencies and correlation between social media use and emotional well-being. The chart very clearly shows where the larger clusters of people are dependent on the usage of social media, and a easy visualization such as a scatter plot allows for better discrepancy.
 ### Chart 3
 
 Include a chart
