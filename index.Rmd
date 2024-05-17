@@ -99,7 +99,24 @@ The 5 values I calculated are the number of row, number of columns, average dail
 
 ### Table
 
-```{r, echo = FALSE, code = readLines("table.R")}
+```{r, echo = FALSE}
+library("readxl")
+library("dplyr")
+data <- read_excel("Colorado Mental Health Numerical Survey Results.xlsx")
+
+table <- data %>%
+  group_by(`Have you been diagnosed with a mental disorder?`) %>%
+  select(`How many hours a day do you spend on social media?`, `How many hours a week do you spend on social media?`,
+        `Do you feel pressure to obtain a certain amount of likes or followers on social media?`)
+
+table <- table %>%
+  rename(daily_hours_spent = `How many hours a day do you spend on social media?`,
+         weekly_hours_spent = `How many hours a week do you spend on social media?`,
+         mental_health_history = `Have you been diagnosed with a mental disorder?`,
+         feel_peer_pressure = `Do you feel pressure to obtain a certain amount of likes or followers on social media?`)
+
+
+knitr::kable(table)
 ```
 
 Describe why you included the table and what information it reveals
