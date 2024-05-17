@@ -20,6 +20,7 @@ Harshita Singh
 ### Date
 
 4/30/2024
+
 ## Abstract
 
 Our main question for this project is how social media usage affects the mental health of an individual, especially young adults. This question is important because if these two variables show a causal relationship, potential solutions should be explored to mitigate this detrimental effect of social media in creating and worsening mental issues. To address this concern, we plan to analyze the dataset we have found using R to study the relationship between social media usage and mental fitness. 
@@ -107,7 +108,6 @@ The table reveals information about the particapants daily as well as weekly soc
 
 ### Chart 1
 
-Include a chart
 ```{r, echo = FALSE, code = readLines("Chart_1.R")}
 ```
 
@@ -121,9 +121,13 @@ This chart reveals that most participants of this survey spent time on social me
 
 ```{r, echo = FALSE, code = readLines("chart 2.R")}
 ```
+
+
 Describe why you chose this chart and what information it reveals
 
 I chose this graph because I believe it helps show the tendencies and correlation between social media use and emotional well-being. The chart very clearly shows where the larger clusters of people are dependent on the usage of social media, and a easy visualization such as a scatter plot allows for better discrepancy.
+
+
 ### Chart 3
 
 Include a chart
