@@ -5,7 +5,7 @@ library(ggplot2)
 library(readxl)
 
 
-file_path <- "/Users/harshitasingh/Downloads/Colorado Mental Health Numerical Survey Results.xlsx"
+file_path <- "Colorado Mental Health Numerical Survey Results.xlsx"
 
 data <- read_excel(file_path)
 
