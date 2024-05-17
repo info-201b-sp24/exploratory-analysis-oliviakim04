@@ -93,7 +93,8 @@ One challenge is showing that using social media leads to mental health issues, 
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+The 5 values I calculated are the number of row, number of columns, average daily hours spent on social media, percentage of participants that use social media everyday, and the highest number of hours spent on social media per week among participants. The dataset has 55 rows and 41 columns. That means that there are 55 participants in total and 41 questions asked in the survey. The reported average hours spent daily on social media is 3.06 hours. The percentage of people that report using social media daily is 89.1 percent. The highest number of hours spent on social media per week among participants is 112 hours.  
+
 
 ### Table
 
@@ -108,6 +109,7 @@ Include a chart
 ```
 
 Describe why you chose this chart and what information it reveals
+
 I chose to graph this histogram because we wanted to see the overall distribution of social media usage daily. 
 This chart reveals that most participants of this survey spent time on social media ranging from 1 - 5hrs daily.
 
