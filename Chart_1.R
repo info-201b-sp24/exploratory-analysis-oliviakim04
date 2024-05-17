@@ -1,7 +1,7 @@
 library("readxl")
 library("ggplot2")
 library("dplyr")
-data <- read_excel("Colorado Mental Health Numerical Survey Results (1).xlsx")
+data <- read_excel("Colorado Mental Health Numerical Survey Results.xlsx")
 
 data_filtered <- filter(data, !is.na(data$`How many hours a day do you spend on social media?`))
 
