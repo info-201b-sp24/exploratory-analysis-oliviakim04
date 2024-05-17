@@ -1,6 +1,6 @@
 library("readxl")
 library("dplyr")
-data <- read_excel("/Users/cwang/Downloads/Colorado Mental Health Numerical Survey Results (1).xlsx")
+data <- read_excel("Colorado Mental Health Numerical Survey Results.xlsx")
 
 table <- data %>%
   group_by(`Have you been diagnosed with a mental disorder?`) %>%
