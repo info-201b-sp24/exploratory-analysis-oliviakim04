@@ -1,11 +1,9 @@
 ---
-title: "Exploratory Analysis"
+title: "Relationship between Mental Health and Social Media Usage"
 output: html_document
 ---
 
 ## Project title
-
-Give your project a concise, interesting title that summarizes the entirety of your project
 
 ## Relationship between Mental Health and Social Media Usage
 
