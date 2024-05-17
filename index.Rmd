@@ -100,6 +100,8 @@ Include a table of aggregate information
 
 Describe why you included the table and what information it reveals
 
+The table reveals information about the particapants daily as well as weekly social media use - which helps us understand and compare how mental health is affected  by the increase or decrease in social media use. We also have columns where particapants share whether they feel pressured to obtain likes and followers on social media which further helps us understand its negative effects. 
+
 ### Chart 1
 
 Include a chart
