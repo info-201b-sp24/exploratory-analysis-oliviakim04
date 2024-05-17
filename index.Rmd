@@ -128,3 +128,5 @@ Include a chart
 ```
 
 Describe why you chose this chart and what information it reveals
+I chose this chart because it helps us to clearly visualise how many people reponded yes to wanting to limit their social media usage as compared to those who don't. It shows that more often than not people wish to reduce their usage showing that they realise its damaging effects.
+
