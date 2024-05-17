@@ -96,7 +96,8 @@ The 5 values I calculated are the number of row, number of columns, average dail
 
 ### Table
 
-Include a table of aggregate information
+```{r, echo = FALSE, code = readLines("table.R")}
+```
 
 Describe why you included the table and what information it reveals
 
